@@ -36,11 +36,11 @@ ALIVE_MSG: process.env.ALIVE_MSG || "sᴜʙᴢᴇʀᴏ ᴀɪ ɪs ᴀʟɪᴠᴇ. 
 ANTI_LINK: process.env.ANTI_LINK || "true",
 ANTI_BAD: process.env.ANTI_BAD || "true",
 PREFIX: process.env.PREFIX || ".", // .,!/?
-FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
+FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
 AUTO_REACT: process.env.AUTO_REACT || "false",
 HEART_REACT: process.env.HEART_REACT || "false",
-OWNER_REACT: process.env.OWNER_REACT || "false",
-BOT_NAME: process.env.BOT_NAME || "『 ＳＵＢＺＥＲＯ - ＭＤ 』",
+OWNER_REACT: process.env.OWNER_REACT || "true",
+BOT_NAME: process.env.BOT_NAME || "『 ALVIN'S - ＭＤ 』",
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
 };
 
